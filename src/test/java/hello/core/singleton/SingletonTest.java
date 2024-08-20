@@ -45,7 +45,6 @@ public class SingletonTest {
     @Test
     @DisplayName("스프링 컨테이너와 싱글톤")
     void springContainer(){
-//        AppConfig appConfig = new AppConfig();
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
 
